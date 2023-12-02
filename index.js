@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     res.end("Hellow Worldasda");
   } else {
     res.writeHead(404, { "Content-Type": "text/plain" });
-    res.end("Salah URL");
+    res.end("Salah URl");
   }
 });
 
